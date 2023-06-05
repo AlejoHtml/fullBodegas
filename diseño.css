@@ -15,7 +15,7 @@ height: 600px;
     left: 0%;
     top: 0%;
     transform: translate(0%, 0%);
-    width: 550px;
+    width: auto;
     height: auto;
     }
 }
@@ -50,18 +50,19 @@ height: 600px;
     background-color: #00233f;
 }
 @media(max-width: 600px){
-    .regresar1{
+    #regresar1{
+        transform: translate(380px, -85px);
         position:fixed ;             
         justify-content: center;
-        width: 100px;
-        height: 50px;
+        width: 90px;
+        height: 25px;
         top: 70%;
         left: 20%;
-        color: #001aac;
+        color: #e9eaee;
         background: #04031f;
         box-shadow: -5px -5px 15px #030322, 5px 5px 15px #1a0b5f, inset 5px 5px 10px #030555, inset -5px -5px 10px #110169;
         text-align: center;
-        font-size: large;
+        font-size: 12px;
     }
 }
 
@@ -112,7 +113,7 @@ height: 600px;
                 width: 100px;
                 height: 25px;
                 position: absolute;
-                transform: translate(90%, 80%);
+                transform: translate(20px, 20px);
                 color: #7b7b80;
                 background: #04031f;
                 box-shadow: -5px -5px 15px #030322, 5px 5px 15px #1a0b5f, inset 5px 5px 10px #030555, inset -5px -5px 10px #110169;
@@ -138,10 +139,10 @@ text-align: center;
     #divForm{
         position: absolute;
         justify-content: center;
-        top: 20%;
-        left: 35%;
+        top: 30%;
+        left: 100%;
         margin: 10px;
-        padding: 10px;
+        padding: 5px;
         color: #ac9a00;
         background: #04031f;
         box-shadow: -5px -5px 15px #030322, 5px 5px 15px #1a0b5f, inset 5px 5px 10px #030555, inset -5px -5px 10px #110169;
@@ -156,6 +157,15 @@ height: 30px;
 border-radius: 10px;
 }
 
+@media (max-width: 600px){
+    .input{
+        align-self: center;
+        width: 100%;
+        height: 20px;
+        border-radius: 5px;
+        }
+}
+
 .dato{
 font-size:medium;
 font-family:'Times New Roman', Times, serif;
@@ -164,7 +174,7 @@ font-family:'Times New Roman', Times, serif;
 
 #guardado{
 font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
+font-size: 15px;
 transform: translate(0%, 40%);
 margin: 10px;
 size: 30px;
@@ -352,11 +362,11 @@ height: 600px;
     .imagen186{
     position:fixed;
     left: 0%;
-    top: 0%;
+    top: 2%;
     transform: translate(0%, 0%);
-    width: 550px;
-    height: auto;
-    }
+    width: 500px;
+    height: 450px;   
+}
 }
 
 
@@ -399,16 +409,15 @@ color: #222;
 
 @media (max-width: 600px){
     .botones171c{
-        transform: translate(120%, -40%);
+        transform: translate(100%, -40%);
         background-color: transparent;
         color: rgb(223, 212, 190);
         border-color: transparent;
         font-size: center;
-        margin: 0px;
-        margin-left: -10px;
-        padding: 5.2px 8.2px;
+        margin-left: -5px;
+        padding: 6.2px 8.5px;
         text-align: center;
-        border-radius: 0px;
+        border-radius: 5px;
         cursor:grab;
         align-items: center;
         cursor: pointer;
@@ -614,8 +623,24 @@ color: #222;
 }
 @media (max-width: 600px){
     .botones186-f{
-        grid-template-columns: repeat(auto-fill, 40px);
-        gap: 20px;
+        position:relative;
+        transform: translate(135%, 40%);
+        height: 15px;
+        width: 20px;
+        margin-top: 0%;
+        margin-left: -3px;
+        margin-top: -3px;
+        color: rgb(255, 255, 255);
+        border-color: transparent;
+        font-size: 6px;
+        text-align: center;
+        border-radius: 4px;
+        cursor:grab;
+        align-items: center;
+        cursor: pointer;
+        background: #d1cfca;
+        box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+        color: #222;
 }}
 
 .botones186-f:hover{
@@ -642,8 +667,24 @@ color: #222;
 }  
 @media (max-width: 600px){
     .botones186-fi{
-        grid-template-columns: repeat(auto-fill, 40px);
-        gap: 20px;
+        position:relative;
+        transform: translate(135%, 40%);
+        height: 15px;
+        width: 20px;
+        margin-top: 0%;
+        margin-left: -3px;
+        margin-top: -3px;
+        color: rgb(255, 255, 255);
+        border-color: transparent;
+        font-size: 6px;
+        text-align: center;
+        border-radius: 4px;
+        cursor:grab;
+        align-items: center;
+        cursor: pointer;
+        background: #d1cfca;
+        box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+        color: #222;
 }}
 
 .botones186-fi:hover{
